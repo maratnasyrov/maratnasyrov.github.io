@@ -1,4 +1,4 @@
-function resize() {
+function getScreenInfo() {
   const infoWrapper = document.getElementById('info-wrapper');
   const [child] = infoWrapper.children;
 
@@ -31,7 +31,7 @@ function resize() {
   infoWrapper.appendChild(pre);
 }
 
-window.addEventListener('resize', resize);
-window.addEventListener('scroll', resize);
+window.addEventListener('resize', getScreenInfo);
+window.addEventListener('scroll', getScreenInfo);
 
-resize();
+getScreenInfo();
