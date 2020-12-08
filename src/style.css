@@ -1,0 +1,17 @@
+.body {
+  width: 100vw;
+  height: 150vh;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.info-wrapper {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background: #1c1e20;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+}
